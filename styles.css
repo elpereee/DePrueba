@@ -1,5 +1,6 @@
-.encabezado{
-    margin: 0% 0% 0%;
+html{
+    margin: 0px 0px 0px
+    !important;
 }
 
 header {
