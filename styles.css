@@ -1,13 +1,25 @@
-html{
-    margin: 0px 0px 0px
-    !important;
+#idtitle{
+    display: inline;
+    position: fixed;
+    /*justify-content: center;*/
+    left: 540px;
+    top: 1px;
+    bottom: 5px;
 }
 
 header {
     border: 2px solid mediumaquamarine;
     background-color: rgba(255, 127, 80,0.7);
     padding: 10px;
-    width: 100%;
-    height: 20%;
-    box-sizing: border-box;
+    width: 1330px;
+    height: 60px;
+    box-sizing: border-box;         /*Ajusta el tam de la caja*/
+    position: fixed;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contenedor{
+    position: absolute;         /*fallo*/
+    top: 60px;
 }
